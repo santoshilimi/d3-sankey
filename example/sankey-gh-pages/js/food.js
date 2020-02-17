@@ -36,9 +36,7 @@ function removelink() {
 function draw() {
 	
 	data={"nodes": [], "links": []}
-	// data = {"nodes":[{"name":"Oil"},{"name":"Natural Gas"},{"name":"Coal","fill":"seaGreen"},{"name":"Fossil Fuels","value":65,"layer":2},{"name":"Electricity","layer":2},{"name":"Energy","fill":"grey"},{"name":"wind","fill":"green"}],"links":[{"source":0,"target":3,"value":15,"fill":"blue"},{"source":6,"target":4,"value":15},{"source":1,"target":3,"value":20},{"source":2,"target":3,"value":25},{"source":2,"target":4,"value":25},{"source":3,"target":5,"value":60},{"source":4,"target":5,"value":50}]}
 	data = {"nodes":[{"name":"Maths","fill":"grey"},{"name":"science"},{"name":"12th Commerce","layer":1,"fill":"grey"},{"name":"12th PCM","layer":1},{"name":"12th PCMB","layer":1,"fill":"grey"},{"name":"BE","layer":2},{"name":"BSC","layer":2,"fill":"grey"},{"name":"B.com","layer":2,"fill":"grey"},{"name":"CA","fill":"grey"},{"name":"MSC","fill":"grey"},{"name":"M.Tech"},{"name":"BE","layer":3}],"links":[{"source":0,"target":2,"value":45},{"source":1,"target":3,"value":45},{"source":2,"target":7,"value":45},{"source":7,"target":8,"value":45},{"source":6,"target":9,"value":55},{"source":5,"target":10,"value":35},{"source":3,"target":5,"value":25},{"source":3,"target":6,"value":20,"fill":"grey"},{"source":4,"target":6,"value":35},{"source":4,"target":5,"value":10},{"source":1,"target":4,"value":45,"fill":"grey"}, {"source":6,"target":11,"value":10}]}
-	
 	// for (i = 0; i < nodesform[0][0].children.length; i++) {
 	// 	data.nodes.push(JSON.parse(nodesform[0][0].children[i].children[0].value));
 	// }
